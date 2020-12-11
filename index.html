@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="pai">
+      <div>
+        <div class="localimg">
+          <img
+            id="circle"
+            src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+            alt=""
+          />
+        </div>
+        <img class="img" src="/img.jpg" alt="" />
+      </div>
+      <div>
+        <input
+          id="img"
+          class="input"
+          type="text"
+          placeholder="Link para imagem"
+        />
+
+        <input id="nome" class="inputs" type="text" placeholder="Nome" />
+
+        <input
+          id="sobrenome"
+          class="inputs"
+          type="text"
+          placeholder="Sobrenome"
+        />
+
+        <input id="cargo" class="inputs" type="text" placeholder="Cargo" />
+
+        <input id="empresa" class="inputs" type="text" placeholder="Empresa" />
+
+        <button onclick="gerar()" id="gerar">Gerar Cartão</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

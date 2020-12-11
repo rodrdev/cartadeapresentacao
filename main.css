@@ -1,0 +1,61 @@
+body {
+  background-color: #f3f2ef;
+  padding: 0;
+  margin: 0;
+}
+
+.pai {
+  max-width: 400px;
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.localimg {
+  width: 90px;
+  height: 90px;
+  background-color: #cecece;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border-radius: 50px;
+  margin-top: 20%;
+  border: 2px solid white;
+}
+
+.input {
+  margin-top: 65px;
+}
+.inputs {
+  margin-top: 20px;
+}
+input {
+  border: 1px solid #d1d1d1;
+  background-color: #ffffff;
+  border-radius: 10px;
+  outline: none;
+  padding: 5px;
+  max-width: 400px;
+  width: 90%;
+  box-sizing: border-box;
+  margin: auto;
+  display: block;
+  text-align: left;
+}
+#circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+}
